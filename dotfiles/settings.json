@@ -2,5 +2,12 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
-    "workbench.settings.editor": "json"
+    "workbench.settings.editor": "json",
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "editor.formatOnSave": true
+    },
+    "python.formatting.provider": "black"
 }
