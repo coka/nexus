@@ -8,6 +8,7 @@
     "files.trimTrailingWhitespace": true,
     "window.titleBarStyle": "custom",
     "workbench.settings.editor": "json",
+    "workbench.startupEditor": "none",
     "[python]": {
         "editor.codeActionsOnSave": {
             "source.organizeImports": true
