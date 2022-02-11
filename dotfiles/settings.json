@@ -6,6 +6,7 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
+    "window.titleBarStyle": "custom",
     "workbench.settings.editor": "json",
     "[python]": {
         "editor.codeActionsOnSave": {
