@@ -21,6 +21,9 @@
         "editor.defaultFormatter": "vscode.json-language-features",
         "editor.formatOnSave": true
     },
+    "[makefile]": {
+        "editor.tabSize": 8
+    },
     "[python]": {
         "editor.codeActionsOnSave": {
             "source.organizeImports": true
