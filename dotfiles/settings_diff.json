@@ -6,6 +6,7 @@
     "editor.rulers": [
         80,140
     ],
+    "telemetry.enableTelemetry": false,
     "terminal.integrated.enablePersistentSessions": false,
     "workbench.colorTheme": "GitHub Light Default"
 }
