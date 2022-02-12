@@ -1,0 +1,11 @@
+{
+    "breadcrumbs.enabled": false,
+    "editor.colorDecorators": false,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.minimap.enabled": false,
+    "editor.rulers": [
+        80,140
+    ],
+    "terminal.integrated.enablePersistentSessions": false,
+    "workbench.colorTheme": "GitHub Light Default"
+}
