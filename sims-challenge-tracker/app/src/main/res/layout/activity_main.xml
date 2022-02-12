@@ -1,0 +1,97 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10px"
+    android:orientation="vertical"
+    android:background="#263963">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10px"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Generation One: Mint" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:padding="10px"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Generation Two: Rose" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:padding="10px"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Generation Three: Yellow" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:padding="10px"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Generation Four: Grey" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:padding="10px"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Generation Five: Plum" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:padding="10px"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Generation Six: Orange" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:padding="10px"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Generation Seven: Pink" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:padding="10px"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Generation Eight: Peach" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:padding="10px"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Generation Nine: Green" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:padding="10px"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Generation Ten: Blue" />
+</LinearLayout>
