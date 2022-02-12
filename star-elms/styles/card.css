@@ -1,0 +1,34 @@
+.card {
+    border-radius: var(--card-border-radius);
+    height: var(--card-height);
+    width: var(--card-width);
+}
+
+.card--face-up {
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.75rem;
+    padding-left: 1em;
+}
+
+.card--face-down {
+    align-items: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.card--interactive {
+    border-color: magenta;
+}
+
+.card--interactive:hover {
+    border-color: cyan;
+}
+
+.card__separator {
+    flex: 1;
+}

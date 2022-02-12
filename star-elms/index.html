@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Star Elms</title>
+    <link rel="stylesheet" href="styles/card.css">
+    <link rel="stylesheet" href="styles/deck.css">
+    <link rel="stylesheet" href="styles/game.css">
+    <style>
+        :root {
+            /* The card print is 56x79.5mm, with a 1.5mm border radius. */
+            --card-border-radius: calc(1.5px * var(--scaling-factor));
+            --card-height: calc(79.5px * var(--scaling-factor));
+            --card-width: calc(56px * var(--scaling-factor));
+            --scaling-factor: 2;
+
+            font-family: monospace;
+            font-size: 16px;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .row {
+            border: 1px solid black;
+            display: flex;
+            margin: 1rem;
+            padding: 1rem;
+        }
+
+        .row>*+* {
+            margin-left: 1rem;
+        }
+
+        .row__main {
+            flex: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app"></div>
+    <script src="app.js"></script>
+    <script>
+        Elm.Main.init({ node: document.getElementById("app") });
+    </script>
+</body>
+
+</html>

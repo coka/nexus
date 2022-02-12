@@ -1,0 +1,9 @@
+{
+    "editor.codeLens": false,
+    "editor.folding": false,
+    "files.exclude": {
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/elm-stuff": true
+    }
+}

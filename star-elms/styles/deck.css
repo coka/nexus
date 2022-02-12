@@ -1,0 +1,21 @@
+.deck--empty {
+    height: var(--card-height);
+    width: var(--card-width);
+}
+
+.deck--hand {
+    display: flex;
+}
+
+.deck--hand > * + * {
+    margin-left: 1rem;
+}
+
+.deck__frame {
+    align-items: center;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 1rem 0;
+}
