@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+defaults write .GlobalPreferences com.apple.mouse.scaling -1
