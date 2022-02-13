@@ -1,6 +1,6 @@
 ```PowerShell
 cd .\Downloads\
-Invoke-WebRequest https://download-installer.cdn.mozilla.net/pub/devedition/releases/97.0b9/win32/en-US/Firefox` Installer.exe -OutFile firefox.exe
+Invoke-WebRequest https://download-installer.cdn.mozilla.net/pub/devedition/releases/98.0b3/win64/en-US/Firefox%20Setup%2098.0b3.exe -OutFile firefox.exe
 # (grave for escape)
 # (as admin)
 wsl --install
